@@ -1,0 +1,30 @@
+{
+  "name": "@dpack/http",
+  "version": "0.1.1",
+  "description": "dPack Plugin For Using dPacks Over HTTP.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "devDependencies": {
+    "@ddrive/core": "ddrives/core#master",
+    "@dpack/core": "dpacks/core#master",
+    "@dwcore/dws2-chain": "dwcore/dws2-chain#master",
+    "@dwcore/rem": "dwcore/rem#master",
+    "ecstatic": "^2.2.1",
+    "tape": "^4.7.0",
+    "temporary-directory": "^1.0.2"
+  },
+  "dependencies": {
+    "@dpack/storage": "dpacks/storage#master",
+    "request": "^2.81.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
