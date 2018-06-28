@@ -14,7 +14,7 @@
   "devDependencies": {
     "@ddrive/core": "ddrives/core#master",
     "@dpack/core": "dpacks/core#master",
-    "@dwcore/dws2-chain": "dwcore/dws2-chain#master",
+    "@dwcore/dws-chain": "dwcore/dws-chain#master",
     "@dwcore/rem": "dwcore/rem#master",
     "ecstatic": "^2.2.1",
     "tape": "^4.7.0",
