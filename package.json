@@ -15,7 +15,7 @@
     "@ddrive/core": "ddrives/core#master",
     "@dpack/core": "dpacks/core#master",
     "@dwcore/dws-chain": "dwcore/dws-chain#master",
-    "@dwcore/rem": "dwcore/rem#master",
+    "@dwcore/rem": "*",
     "ecstatic": "^2.2.1",
     "tape": "^4.7.0",
     "temporary-directory": "^1.0.2"
